@@ -17,6 +17,6 @@ RUN  curl -sL https://deb.nodesource.com/setup_6.x | bash - && \
      git && \
    rm -rf /var/lib/apt/lists/*
 
-RUN pip install sphinx
+RUN pip install sphinx boto3
 
 user buildbot
