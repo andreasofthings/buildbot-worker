@@ -1,4 +1,4 @@
-FROM        buildbot/buildbot-worker:3.7.0
+FROM        buildbot/buildbot-worker:latest
 MAINTAINER  Andreas Neumeier <andreas@neumeier.org>
 
 # Install custom required packages
